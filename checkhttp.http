@@ -1,0 +1,14 @@
+
+
+get http://127.0.0.1:1050/setupdb
+
+####
+
+post http://127.0.0.1:1050/bookFlight
+Content-Type: application/json
+
+{
+    "flightId":"IND-101",
+    "customerId":"G1001",
+    "noOfTickets":1
+}
